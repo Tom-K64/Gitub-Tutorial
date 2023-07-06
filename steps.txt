@@ -1,0 +1,54 @@
+Steps:
+-> Installation of Git
+		->Link to windows Git Version : https://git-scm.com/download/win
+		->Download the standalone installer (32bit or 64bit)
+		->Instal it in your system
+		->check for successful Installation
+				-> Open Command Prompt
+				-> git --version
+		
+
+-> Creation of Github Account
+		->visit : https://github.com/
+		->click on Sign Up
+		->fill in details (email,username,password)
+		->click on create Account
+		->OTP verification
+		->skin personalization (scroll down)
+
+->One Time Process (interlinking local system and Github Account:
+		->open Command Prompt
+		->CMD : git config --global user.email "<type in your Email>"
+
+->Creation of Repository:
+		->Open Github
+		->go to profile icon -> Your Repositories
+		->Click New
+		->Enter Repo Name , set visibility
+
+->Connecting Local Repository to Github Repository
+		->Open Command Prompt
+		->Go to the root Directory
+		->git init (Initializes local repo)
+		->git branch -M main (creates a main branch)
+		->git remote add origin <repo link>
+		->git add <file name> or git add .  (Add all the changed files to the staging area)
+		->git commit -m "<message You want to give>"
+		->git push origin <branch name>
+
+->ALTERNATIVE PROCESS :
+		->Open Github 
+		->create a repo
+		->copy the given code
+		->open cmd and go to the root directory
+		->Paste the copied commands
+
+		--SETUP Complete--
+
+->Pushing Code:
+		->git add <file name> or git add . (add files to staging area)
+		->git commit -m "<message>"		  (commit the changes)
+		->git push origin <branch name>     (push to gihub)
+
+
+		

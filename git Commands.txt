@@ -1,0 +1,12 @@
+git branch   --> show the list of branches
+git branch <branch name> -->create a branch
+git add <file name> --> add the specific file to staging area
+git add .    --> add all the changed files to the staging area
+git commit -m "<messgae>"  --> commit all the files in the staging area
+git push origin <branch name>  --> push thhe code to github repo in a specific branch
+git status --> show the status of all the files
+
+
+git init --> initialize a local repo in your system
+git remote add origin <repo link>  --> add ann origin
+git remote show origin --> show the origin that is set for fetch or push
