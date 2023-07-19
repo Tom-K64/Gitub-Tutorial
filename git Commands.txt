@@ -14,4 +14,3 @@ git remote show origin --> show the origin that is set for fetch or push
 
 
 
-
