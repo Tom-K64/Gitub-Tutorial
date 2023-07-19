@@ -10,3 +10,8 @@ git status --> show the status of all the files
 git init --> initialize a local repo in your system
 git remote add origin <repo link>  --> add ann origin
 git remote show origin --> show the origin that is set for fetch or push
+
+
+
+
+
